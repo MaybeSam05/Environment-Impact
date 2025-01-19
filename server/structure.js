@@ -9,3 +9,9 @@ const manufacturingHandler = (product) => {
 const supplyChainHandler = (company) => {
     // use company name to generate a score from 1 - 5
 }
+
+let displayObj = {
+    description : descriptionHandler,
+    manufacturing : manufacturingHandler,
+    supplyChain : supplyChainHandler
+}
