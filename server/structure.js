@@ -69,3 +69,7 @@ let displayObj = {
     manufacturing : manufacturingHandler,
     supplyChain : supplyChainHandler
 }
+
+const { description } = displayObj;
+const { manufacturing } = displayObj;
+const { supplyChain } = displayObj;
