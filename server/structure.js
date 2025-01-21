@@ -73,3 +73,5 @@ let displayObj = {
 const { description } = displayObj;
 const { manufacturing } = displayObj;
 const { supplyChain } = displayObj;
+
+// link back to front end in future release
