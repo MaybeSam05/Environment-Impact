@@ -70,8 +70,5 @@ let displayObj = {
     supplyChain : supplyChainHandler
 }
 
-const { description } = displayObj;
-const { manufacturing } = displayObj;
-const { supplyChain } = displayObj;
-
+module.exports = { displayObj }
 // link back to front end in future release
